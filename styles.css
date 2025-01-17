@@ -1,5 +1,80 @@
-body {
-    margin:0;
-    background: yellow;
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
 }
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 120px;
+    background: #11141a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+
+.logo{
+    font: size 25px ;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+
+}
+
+nav a:hover,
+nav a.active{
+    color: #0ef;
+}
+
+
+
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:chocolate;
+
+}
+
+h3{
+    text-align: justify;
+    
+}
+
+.contact{
+    color:black;
+    
+}
+
+.flex-centered gap-4{
+    color:black
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+
+  
+.bg-img{
+   height: 100vh;
+   width: 100vw;
+   text-align: center;
+}
+    
